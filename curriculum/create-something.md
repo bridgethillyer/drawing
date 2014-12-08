@@ -195,10 +195,10 @@ The x and y parameters were 400 and 10 from the upper-left corner, which was the
 
 In terms of programming, 'moving the snowflake like it was falling down' means:
 
-1. Set the initial state--for example, `(x, y) = (400, 10)`
-2. Draw the background first, then the snowflake
-3. Update the state - increase the `y` parameter--for example, `(x, y) = (400, 11)`
-4. Draw the background again first, then the snowflake
+1. Set the initial state. For example, `(x, y) = (400, 10)`.
+2. Draw the background first, then the snowflake.
+3. Update the state by increasing the `y` parameter. For example, `(x, y) = (400, 11)`.
+4. Draw the background again first, then the snowflake.
 5. Repeat 2 and 3, increasing the `y` parameter.
 
 In her application, "changing state" includes only the `y` parameter. How could she increment the `y` value by one?
